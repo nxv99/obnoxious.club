@@ -116,7 +116,7 @@ const writeLine = (text, speed, timeout, callback) => {
   }, timeout);
 };
 
-writeLine(["> Granting access to d4rk API....", `> Access granted! <span style='font-size: 14px; color: #ff91a4;'>[completed]</span>`], 45, () => {
+writeLine(["> Access granted! <span style='font-size: 14px; color: #ff91a4;'>[completed]</span>`"], 45, () => {
 if (app.skippedIntro) return;
 
 clearCursor();
